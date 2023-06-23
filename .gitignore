@@ -1,6 +1,4 @@
 /node_modules
-/build
-/dist
 test-*.js
 build.temp.js
 /.nyc_output

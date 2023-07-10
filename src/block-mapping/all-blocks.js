@@ -919,16 +919,24 @@ export default {
         defaultMessage: 'reset trip meters',
     },
     robot_turnright: {
-        defaultMessage: 'turn right {DEGREES} degrees',
+        defaultMessage: 'robot turn right {DEGREES} degrees',
     },
     robot_turnleft: {
-        defaultMessage: 'turn left {DEGREES} degrees',
+        defaultMessage: 'robot turn left {DEGREES} degrees',
     },
     robot_set_motors_power: {
         defaultMessage: 'set motors power {POWER}',
     },
     robot_set_motors_power_left_right_separately: {
         defaultMessage: 'set motors power L {POWER_LEFT} R {POWER_RIGHT}',
+    },
+    robot_set_motors_left_right_power_and_direction_separately: {
+        defaultMessage:
+            'L {ROBOT_LEFT_MOTOR_DIRECTION} R {ROBOT_RIGHT_MOTOR_DIRECTION} set power L {POWER_LEFT} R {POWER_RIGHT}',
+        remap: {
+            ROBOT_LEFT_MOTOR_DIRECTION: 'ROBOT_ONE_MOTOR_DIRECTION',
+            ROBOT_RIGHT_MOTOR_DIRECTION: 'ROBOT_ONE_MOTOR_DIRECTION',
+        },
     },
     robot_get_sensor_data: {
         defaultMessage: 'robot {ROBOT_SENSORS}',

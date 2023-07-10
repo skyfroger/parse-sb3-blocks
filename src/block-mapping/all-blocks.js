@@ -900,6 +900,50 @@ export default {
         translationKey: 'wedo2.getTiltAngle',
         type: REPORTER_BLOCK,
     },
+    robot_motors_on_for_seconds: {
+        defaultMessage: 'motors on for {SECONDS} seconds',
+    },
+    robot_motors_on: {
+        defaultMessage: 'motors on',
+    },
+    robot_motors_off: {
+        defaultMessage: 'motors off',
+    },
+    robot_set_direction_to: {
+        defaultMessage: 'set robot direction to {ROBOT_DIRECTION}',
+    },
+    robot_motors_on_for_steps: {
+        defaultMessage: 'motors on for {STEPS} steps',
+    },
+    robot_reset_trip_meters: {
+        defaultMessage: 'reset trip meters',
+    },
+    robot_turnright: {
+        defaultMessage: 'turn right {DEGREES} degrees',
+    },
+    robot_turnleft: {
+        defaultMessage: 'turn left {DEGREES} degrees',
+    },
+    robot_set_motors_power: {
+        defaultMessage: 'set motors power {POWER}',
+    },
+    robot_set_motors_power_left_right_separately: {
+        defaultMessage: 'set motors power L {POWER_LEFT} R {POWER_RIGHT}',
+    },
+    robot_get_sensor_data: {
+        defaultMessage: 'robot {ROBOT_SENSORS}',
+        type: REPORTER_BLOCK,
+    },
+    robot_start_button_pressed: {
+        defaultMessage: 'robot start button pressed?',
+        type: BOOLEAN_BLOCK,
+    },
+    robot_turn_led_on: {
+        defaultMessage: 'turn robot led in {ROBOT_POSITION} on',
+    },
+    robot_turn_led_off: {
+        defaultMessage: 'turn robot led in {ROBOT_POSITION} off',
+    },
 };
 
 const effects = {

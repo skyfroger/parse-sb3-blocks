@@ -902,37 +902,48 @@ export default {
     },
     robot_motors_on_for_seconds: {
         defaultMessage: 'motors on for {SECONDS} seconds',
+        noTranslation: true,
     },
     robot_motors_on: {
         defaultMessage: 'motors on',
+        noTranslation: true,
     },
     robot_motors_off: {
         defaultMessage: 'motors off',
+        noTranslation: true,
     },
     robot_set_direction_to: {
         defaultMessage: 'set robot direction to {ROBOT_DIRECTION}',
+        noTranslation: true,
     },
     robot_motors_on_for_steps: {
         defaultMessage: 'motors on for {STEPS} steps',
+        noTranslation: true,
     },
     robot_reset_trip_meters: {
         defaultMessage: 'reset trip meters',
+        noTranslation: true,
     },
     robot_turnright: {
         defaultMessage: 'robot turn right {DEGREES} degrees',
+        noTranslation: true,
     },
     robot_turnleft: {
         defaultMessage: 'robot turn left {DEGREES} degrees',
+        noTranslation: true,
     },
     robot_set_motors_power: {
         defaultMessage: 'set motors power {POWER}',
+        noTranslation: true,
     },
     robot_set_motors_power_left_right_separately: {
         defaultMessage: 'set motors power L {POWER_LEFT} R {POWER_RIGHT}',
+        noTranslation: true,
     },
     robot_set_motors_left_right_power_and_direction_separately: {
         defaultMessage:
             'L {ROBOT_LEFT_MOTOR_DIRECTION} R {ROBOT_RIGHT_MOTOR_DIRECTION} set power L {POWER_LEFT} R {POWER_RIGHT}',
+        noTranslation: true,
         remap: {
             ROBOT_LEFT_MOTOR_DIRECTION: 'ROBOT_ONE_MOTOR_DIRECTION',
             ROBOT_RIGHT_MOTOR_DIRECTION: 'ROBOT_ONE_MOTOR_DIRECTION',
@@ -940,17 +951,21 @@ export default {
     },
     robot_get_sensor_data: {
         defaultMessage: 'robot {ROBOT_SENSORS}',
+        noTranslation: true,
         type: REPORTER_BLOCK,
     },
     robot_start_button_pressed: {
         defaultMessage: 'robot start button pressed?',
+        noTranslation: true,
         type: BOOLEAN_BLOCK,
     },
     robot_turn_led_on: {
         defaultMessage: 'turn robot led in {ROBOT_POSITION} on',
+        noTranslation: true,
     },
     robot_turn_led_off: {
         defaultMessage: 'turn robot led in {ROBOT_POSITION} off',
+        noTranslation: true,
     },
 };
 

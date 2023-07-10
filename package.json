@@ -1,6 +1,6 @@
 {
     "name": "parse-sb3-blocks",
-    "version": "0.5.2",
+    "version": "0.6.0",
     "description": "Parse sb3 blocks, and generate scratchblocks formatted code.",
     "main": "dist/parse-sb3-blocks.cjs",
     "browser": "dist/parse-sb3-blocks.browser.js",
@@ -20,7 +20,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/apple502j/parse-sb3-blocks.git"
+        "url": "git+https://github.com/skyfroger/parse-sb3-blocks"
     },
     "keywords": [
         "scratch",
@@ -29,9 +29,9 @@
     "author": "apple502j",
     "license": "BSD-3-Clause",
     "bugs": {
-        "url": "https://github.com/apple502j/parse-sb3-blocks/issues"
+        "url": "https://github.com/skyfroger/parse-sb3-blocks/issues"
     },
-    "homepage": "https://github.com/apple502j/parse-sb3-blocks#readme",
+    "homepage": "https://github.com/skyfroger/parse-sb3-blocks#readme",
     "devDependencies": {
         "@babel/eslint-parser": "^7.19.1",
         "@babel/plugin-syntax-import-assertions": "^7.20.0",

@@ -967,6 +967,85 @@ export default {
         defaultMessage: 'turn robot led in {ROBOT_POSITION} off',
         noTranslation: true,
     },
+    lab_led_turn_on: {
+        defaultMessage: 'turn lab led {LED_NUMS} on',
+        noTranslation: true,
+        remap: {
+            LED_NUMS: 'LED_NUMS',
+        },
+    },
+    lab_led_turn_off: {
+        defaultMessage: 'turn lab led {LED_NUMS} off',
+        noTranslation: true,
+        remap: {
+            LED_NUMS: 'LED_NUMS',
+        },
+    },
+    lab_color_led_turn_on: {
+        defaultMessage: 'turn lab led {LED_COLORS} on',
+        noTranslation: true,
+        remap: {
+            LED_COLORS: 'LED_COLORS',
+        },
+    },
+    lab_color_led_turn_off: {
+        defaultMessage: 'turn lab led {LED_COLORS} off',
+        noTranslation: true,
+        remap: {
+            LED_COLORS: 'LED_COLORS',
+        },
+    },
+    lab_play_note: {
+        defaultMessage: 'play note on lab {LAB_NOTE}',
+        noTranslation: true,
+    },
+    lab_sensor: {
+        defaultMessage: 'lab {LAB_SENSOR}',
+        noTranslation: true,
+        remap: {
+            LAB_SENSOR: 'LAB_SENSORS',
+        },
+        type: REPORTER_BLOCK,
+    },
+    lab_button_pressed: {
+        defaultMessage: 'lab button {BUTTON_NUMBER} pressed',
+        noTranslation: true,
+        remap: {
+            BUTTON_NUMBER: 'BUTTON_NUMBERS',
+        },
+        type: BOOLEAN_BLOCK,
+    },
+    lab_analog_pin: {
+        defaultMessage: 'lab analog pin {LAB_ANALOG_PIN}',
+        noTranslation: true,
+        remap: {
+            LAB_ANALOG_PIN: 'LAB_ANALOG_PINS',
+        },
+        type: REPORTER_BLOCK,
+    },
+    lab_digital_pin: {
+        defaultMessage: 'lab digital pin {LAB_DIGITAL_PIN}',
+        noTranslation: true,
+        remap: {
+            LAB_DIGITAL_PIN: 'LAB_DIGITAL_PINS_STACK1',
+        },
+        type: BOOLEAN_BLOCK,
+    },
+    lab_digital_pin_set_on_off: {
+        defaultMessage: 'set lab pin {LAB_DIGITAL_PIN} {LAB_DIGITAL_PIN_STATE}',
+        noTranslation: true,
+        remap: {
+            LAB_DIGITAL_PIN: 'LAB_DIGITAL_PINS_STACK2',
+            LAB_DIGITAL_PIN_STATE: 'LAB_DIGITAL_PINS_STATES',
+        },
+    },
+    lab_digital_pin_set_pwm_value: {
+        defaultMessage: 'set lab pin {LAB_DIGITAL_PIN} PWM value {PWM_VALUE}',
+        noTranslation: true,
+        remap: {
+            LAB_DIGITAL_PIN: 'LAB_DIGITAL_PINS_STACK2',
+        },
+    },
 };
 
 const effects = {

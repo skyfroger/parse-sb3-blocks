@@ -10,5 +10,5 @@
 Нужно запустить следующую команду
 
 ```bash
-npm run build:nolocale
+npm run build
 ```
